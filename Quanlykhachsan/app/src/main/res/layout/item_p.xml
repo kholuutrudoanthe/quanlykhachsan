@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#E6E6E6"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/ic_hotel" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="Mã phòng:"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/baloo2_semibold" />
+                    <TextView
+                        android:id="@+id/textmap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/baloo2_semibold"
+                        />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tên phòng:"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/baloo2_semibold" />
+
+                    <TextView
+                        android:id="@+id/texttp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/baloo2_semibold"
+                        />
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Loại phòng:"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/baloo2_semibold" />
+
+                    <TextView
+                        android:id="@+id/texttlp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/baloo2_semibold"
+                        />
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Vị trí:"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/baloo2_semibold" />
+
+                    <TextView
+                        android:id="@+id/textvitri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/baloo2_semibold"
+                        />
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Trạng thái:"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/baloo2_semibold" />
+
+                    <TextView
+                        android:id="@+id/texttt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/baloo2_semibold"
+                        />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageViewedit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_edit_24" />
+
+            <ImageView
+                android:id="@+id/imageViewDelete"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/imageViewedit"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_baseline_delete_forever_24" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

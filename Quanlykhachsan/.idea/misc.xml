@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/activity_doanh_thu.xml" value="0.18229166666666666" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/activity_main.xml" value="0.18541666666666667" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/activity_main_dang_ky.xml" value="0.18229166666666666" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/activity_main_home.xml" value="0.18541666666666667" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/activity_main_qltien_nghi.xml" value="0.3625" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/activity_qldatphong.xml" value="0.17135416666666667" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/activity_qlloaiphong.xml" value="0.18541666666666667" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/activity_qlphong.xml" value="0.3484375" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/dialog_them.xml" value="0.3625" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/dialog_them_sua_dp.xml" value="0.25" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/dialog_them_sualp.xml" value="0.3625" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/dialog_them_suap.xml" value="0.33" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/dialog_them_suatn.xml" value="0.3625" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/dropdown_item.xml" value="0.18541666666666667" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/item_dp.xml" value="0.25" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/item_dt.xml" value="0.33" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/item_lp.xml" value="0.3625" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/item_nv.xml" value="0.18541666666666667" />
+        <entry key="..\:/Downloads/android/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/item_p.xml" value="0.5" />
+        <entry key="..\:/Users/Hao/Downloads/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Hao/Downloads/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/activity_main_dang_ky.xml" value="0.1671875" />
+        <entry key="..\:/Users/Hao/Downloads/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/activity_main_home.xml" value="0.25" />
+        <entry key="..\:/Users/Hao/Downloads/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/activity_main_qlnhan_vien.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hao/Downloads/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/activity_main_qltien_nghi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hao/Downloads/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/activity_qlphong.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Hao/Downloads/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/dialog_them.xml" value="0.1" />
+        <entry key="..\:/Users/Hao/Downloads/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/dialog_them_sualp.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hao/Downloads/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/dialog_them_suatn.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hao/Downloads/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/item_lp.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hao/Downloads/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/item_nv.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hao/Downloads/Quanlykhachsan/Quanlykhachsan/app/src/main/res/layout/item_tn.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Quanlykhachsan/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/android/Quanlykhachsan/app/src/main/res/layout/activity_main_dang_ky.xml" value="0.3625" />
+        <entry key="..\:/android/Quanlykhachsan/app/src/main/res/layout/activity_main_home.xml" value="0.3625" />
+        <entry key="..\:/android/Quanlykhachsan/app/src/main/res/layout/activity_main_qlnhan_vien.xml" value="0.3484375" />
+        <entry key="..\:/android/Quanlykhachsan/app/src/main/res/layout/dialog_them.xml" value="0.3614583333333333" />
+        <entry key="..\:/android/Quanlykhachsan/app/src/main/res/layout/item_nv.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

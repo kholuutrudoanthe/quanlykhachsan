@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edit_text"
+    android:backgroundTint="#FF9800"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/baloo2_semibold"
+        android:gravity="center"
+        android:text="Thêm phòng"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/baloo2_semibold"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="Mã phòng:"/>
+    <EditText
+        android:id="@+id/editTextmp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edit_text"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/baloo2_semibold"
+        android:hint="Mã phòng"
+        android:paddingStart="30dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/baloo2_semibold"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="Tên loại phòng:"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text"
+        android:backgroundTint="@color/white"
+        android:layout_marginEnd="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/baloo2_semibold"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="Tên phòng:"/>
+    <EditText
+        android:id="@+id/editTexttp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edit_text"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/baloo2_semibold"
+        android:hint="Tên phòng"
+        android:paddingStart="30dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/baloo2_semibold"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="Vị trí phòng:"/>
+    <EditText
+        android:id="@+id/editTextvitri"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edit_text"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/baloo2_semibold"
+        android:hint="Vị trí"
+        android:paddingStart="30dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/baloo2_semibold"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="Trạng thái phòng:"/>
+    <EditText
+        android:id="@+id/editTexttt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:enabled="false"
+        android:background="@drawable/edit_text"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/baloo2_semibold"
+        android:hint="Trạng thái"
+        android:inputType="number"
+        android:paddingStart="30dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/black" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+
+        android:orientation="horizontal">
+
+        <android.widget.Button
+            android:id="@+id/btnthem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text"
+            android:backgroundTint="#00BCD4"
+            android:text="Thêm"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <android.widget.Button
+            android:id="@+id/btnthoat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/edit_text"
+            android:backgroundTint="#00BCD4"
+            android:text="Thoát"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
